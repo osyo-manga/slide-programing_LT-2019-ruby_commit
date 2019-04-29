@@ -34,7 +34,7 @@
 
 * まつもとゆきひろ氏（通称 Matz）によって開発された言語                        <!-- .element: class="fragment" -->
   * 日本人のコミッタが多い
-  * 最終的な決定権は Matz が持っている
+  * Ruby に機能を追加する最終的な決定権は Matz が持つ
 * Web アプリケーション開発で利用されている                        <!-- .element: class="fragment" -->
   * Ruby on Rails
 * Ruby は死んだ？                        <!-- .element: class="fragment" -->
@@ -46,21 +46,24 @@
 #### Ruby にコミットされるまでの流れ
 - - -
 
-1. bugs.ruby にチケットを登録する                        <!-- .element: class="fragment" -->
+1. 機能提案のチケットを登録する                        <!-- .element: class="fragment" -->
 1. 開発者会議の議題で取り上げる                        <!-- .element: class="fragment" -->
 1. 問題がなければマージされる                         <!-- .element: class="fragment" -->
+
+
+ <br>
+# 簡単！                          <!-- .element: class="fragment" -->
 
 ---
 
 
-#### bugs.ruby に登録する
+#### 機能提案のチケットを登録する
 - - -
 
-* Redmine でチケット管理している                       <!-- .element: class="fragment" -->
-  * 機能提案やバグがあればここに issues を登録する
-  * 英語が多いが日本語でも登録可
-  * 日本人のコミッタが多い利点
-  * github は使われてない
+* bugs.ruby (Redmine)でチケット管理している                       <!-- .element: class="fragment" -->
+  * 機能提案やバグがあればここに登録する                       <!-- .element: class="fragment" -->
+  * 英語が多いが日本語でも登録可能                       <!-- .element: class="fragment" -->
+  * github のミラーはあるが議論などでは使われてない         <!-- .element: class="fragment" -->
 * 実際に登録した内容                       <!-- .element: class="fragment" -->
   * https://bugs.ruby-lang.org/issues/15653
 
@@ -72,9 +75,9 @@
 
 * コミッタが集まって毎月会議をしている             <!-- .element: class="fragment" -->
   * bugs.ruby に登録された提案などについて議論している
-* この会議で議論してもらえるように議題に追加する必要がある             <!-- .element: class="fragment" -->
+* この会議で議論してもらえるように議題に追加する必要がある(超重要)             <!-- .element: class="fragment" -->
   * https://bugs.ruby-lang.org/issues/15614
-* この会議で Matz が問題ないと判断すればマージされる             <!-- .element: class="fragment" -->
+* この会議で問題ないと判断すればマージされる             <!-- .element: class="fragment" -->
   * ダメならリジェクトされる
 
 
@@ -83,11 +86,12 @@
 #### 機能提案する上で気をつけている事
 - - -
 
-* 最終的な決定権は Matz にあるので説得出来るだけのユースケースを考える             <!-- .element: class="fragment" -->
-  * より具体的に
+* コミッタを説得出来るだけのユースケースを考える             <!-- .element: class="fragment" -->
+  * より具体的に、実際に困ってるケースなど
+  * Matz の気持ちを考える
 * 言語デザインとして一貫性がある             <!-- .element: class="fragment" -->
   * 他の機能と比べて整合性が取れているか
-* 本当に Ruby に必要なのか             <!-- .element: class="fragment" -->
+* 本当に Ruby 本体に必要なのか             <!-- .element: class="fragment" -->
   * 外部ライブラリではダメなのか
 
 

@@ -34,7 +34,7 @@
 
 * まつもとゆきひろ氏（通称 Matz）によって開発された言語                        <!-- .element: class="fragment" -->
   * 日本人のコミッタが多い
-  * Ruby に機能を追加する最終的な決定権は Matz が持つ
+  * Ruby に機能を追加する最終的な決定権は Matz が持っています
 * Web アプリケーション開発で利用されている                        <!-- .element: class="fragment" -->
   * Ruby on Rails
 * Ruby は死んだ？                        <!-- .element: class="fragment" -->
@@ -52,7 +52,7 @@
 
 
  <br>
-# 簡単！                          <!-- .element: class="fragment" -->
+# 超簡単！                          <!-- .element: class="fragment" -->
 
 ---
 
@@ -60,9 +60,9 @@
 #### 機能提案のチケットを登録する
 - - -
 
-* bugs.ruby (Redmine)でチケット管理している                       <!-- .element: class="fragment" -->
+* bugs.ruby でチケット管理している                       <!-- .element: class="fragment" -->
   * 機能提案やバグがあればここに登録する                       <!-- .element: class="fragment" -->
-  * 英語が多いが日本語でも登録可能                       <!-- .element: class="fragment" -->
+  * 基本的に英語だけど日本語でも OK                       <!-- .element: class="fragment" -->
   * github のミラーはあるが議論などでは使われてない         <!-- .element: class="fragment" -->
 * 実際に登録した内容                       <!-- .element: class="fragment" -->
   * https://bugs.ruby-lang.org/issues/15653
@@ -73,9 +73,10 @@
 #### 開発者会議
 - - -
 
-* コミッタが集まって毎月会議をしている             <!-- .element: class="fragment" -->
-  * bugs.ruby に登録された提案などについて議論している
-* この会議で議論してもらえるように議題に追加する必要がある(超重要)             <!-- .element: class="fragment" -->
+* 毎月コミッタが集まって会議をしている             <!-- .element: class="fragment" -->
+  * ここで bugs.ruby に提案された機能を入れるかどうかの議論が行われてい <!-- .element: class="fragment" -->
+  * つまり年に12回しかチャンスがない <!-- .element: class="fragment" -->
+* 登録した提案はここで議論してもらえるように議題に追加する必要がある(超重要)             <!-- .element: class="fragment" -->
   * https://bugs.ruby-lang.org/issues/15614
 * この会議で問題ないと判断すればマージされる             <!-- .element: class="fragment" -->
   * ダメならリジェクトされる
@@ -87,8 +88,8 @@
 - - -
 
 * コミッタを説得出来るだけのユースケースを考える             <!-- .element: class="fragment" -->
-  * より具体的に、実際に困ってるケースなど
-  * Matz の気持ちを考える
+  * より具体的に実際に困ってるケースなど提示     <!-- .element: class="fragment" -->
+  * Matz の気持ちを考える               <!-- .element: class="fragment" -->
 * 言語デザインとして一貫性がある             <!-- .element: class="fragment" -->
   * 他の機能と比べて整合性が取れているか
 * 本当に Ruby 本体に必要なのか             <!-- .element: class="fragment" -->
@@ -104,6 +105,7 @@
 * 自分が使用している言語・ツールがどのように開発されているのか知っておく事は大事           <!-- .element: class="fragment" -->
 * 貢献すると中の人が喜ぶので積極的に関わっていこう           <!-- .element: class="fragment" -->
   * Ruby に関して言えばそこまでハードルが高くはない
+  * 奥せずになんでもチャレンジ!
 * ほしいものは自分でつくる!!!           <!-- .element: class="fragment" -->
   * ほしい!!というモチベーション
 
